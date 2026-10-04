@@ -7,7 +7,7 @@
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2563EB&center=true&vCenter=true&width=800&lines=Full-Stack+Web+Artisan+%7C+Tech+Lead;Laravel+12+%7C+Next.js+16+%7C+React+19;Informatics+Student+at+Universitas+Muhammadiyah+Riau;Client-Side+WASM+%7C+Local-First+Architecture;MC+Wisuda+ke-28+UMRI+%7C+40%2B+Accolades" alt="Typing SVG" />
 
 <p>
-  <img src="https://komarev.com/ghpvc/?username=Ilmialfa&label=Profile%20Views&color=00c2ff&style=for-the-badge" alt="Profile views" />
+  <img src="https://img.shields.io/badge/Open_To-Collaborations-00c2ff?style=for-the-badge" alt="Open to Collaborations" />
   <img src="https://img.shields.io/github/followers/Ilmialfa?label=Followers&style=for-the-badge&color=2563eb" alt="Followers" />
   <img src="https://img.shields.io/github/stars/Ilmialfa?label=Stars&style=for-the-badge&color=f59e0b" alt="Stars" />
 </p>
@@ -180,7 +180,7 @@ const ilmi = {
 ## GitHub Analytics
 
 <div align="center">
-  <img height="175" src="https://github-readme-stats.vercel.app/api?username=Ilmialfa&show_icons=true&bg_color=ffffff&title_color=2563eb&text_color=334155&icon_color=0284c7&border_color=e2e8f0" alt="GitHub Stats" />
+  <img height="175" src="https://github-readme-stats.vercel.app/api?username=Ilmialfa&show_icons=true&hide_rank=true&bg_color=ffffff&title_color=2563eb&text_color=334155&icon_color=0284c7&border_color=e2e8f0" alt="GitHub Stats" />
   &nbsp;
   <img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ilmialfa&layout=compact&langs_count=8&bg_color=ffffff&title_color=2563eb&text_color=334155&border_color=e2e8f0" alt="Top Languages" />
 </div>
