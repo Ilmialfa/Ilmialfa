@@ -1,32 +1,28 @@
 <div align="center">
 
-  <!-- Animated High-Craft Workstation Banner -->
-  <a href="https://github.com/Ilmialfa">
-    <img src="https://raw.githubusercontent.com/Ilmialfa/Ilmialfa/main/assets/hero-animated.svg?v=3.1" alt="M. Ilmi Alfaridzi Header Banner" width="100%" />
-  </a>
+  <img src="https://raw.githubusercontent.com/Ilmialfa/Ilmialfa/main/assets/hero-animated.svg" alt="M. Ilmi Alfaridzi" width="100%" />
 
   <br /><br />
 
-  <!-- Direct Contact & Connect Badges -->
   <p align="center">
     <a href="https://www.linkedin.com/in/m-ilmi-alfaridzi-7a5a02293/" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-M._Ilmi_Alfaridzi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
-    &nbsp;&nbsp;
+    &nbsp;&bull;&nbsp;
     <a href="mailto:alfaridziilmi@gmail.com">
-      <img src="https://img.shields.io/badge/Email-alfaridziilmi%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+      <img src="https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white" alt="Email" />
     </a>
-    &nbsp;&nbsp;
+    &nbsp;&bull;&nbsp;
     <a href="https://instagram.com/ilmialfaridzi" target="_blank">
-      <img src="https://img.shields.io/badge/Instagram-@ilmialfaridzi-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+      <img src="https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white" alt="Instagram" />
     </a>
-    &nbsp;&nbsp;
+    &nbsp;&bull;&nbsp;
     <a href="https://wa.me/6282248001571" target="_blank">
-      <img src="https://img.shields.io/badge/WhatsApp-Chat_Me-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" />
+      <img src="https://img.shields.io/badge/WhatsApp-25D366?style=flat&logo=whatsapp&logoColor=white" alt="WhatsApp" />
     </a>
-    &nbsp;&nbsp;
+    &nbsp;&bull;&nbsp;
     <a href="https://omniconvert-mu.vercel.app" target="_blank">
-      <img src="https://img.shields.io/badge/Live_Portfolio-OmniConvert-0284C7?style=for-the-badge&logo=vercel&logoColor=white" alt="Live App" />
+      <img src="https://img.shields.io/badge/Live_Portfolio-0284C7?style=flat&logo=vercel&logoColor=white" alt="Live Portfolio" />
     </a>
   </p>
 

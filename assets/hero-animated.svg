@@ -1,173 +1,161 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 240" width="100%" height="240" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="240" viewBox="0 0 920 240">
   <defs>
     <!-- Background Gradient -->
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="canvasBg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#080C14" />
-      <stop offset="50%" stop-color="#0D1322" />
+      <stop offset="50%" stop-color="#0E1424" />
       <stop offset="100%" stop-color="#070A10" />
     </linearGradient>
 
-    <!-- Animated Border Glow Gradient -->
-    <linearGradient id="borderGlow" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0284C7">
-        <animate attributeName="stop-color" values="#0284C7;#6366F1;#10B981;#0284C7" dur="8s" repeatCount="indefinite" />
-      </stop>
-      <stop offset="50%" stop-color="#6366F1">
-        <animate attributeName="stop-color" values="#6366F1;#10B981;#0284C7;#6366F1" dur="8s" repeatCount="indefinite" />
-      </stop>
-      <stop offset="100%" stop-color="#10B981">
-        <animate attributeName="stop-color" values="#10B981;#0284C7;#6366F1;#10B981" dur="8s" repeatCount="indefinite" />
-      </stop>
-    </linearGradient>
-
-    <!-- Scanline Gradient -->
-    <linearGradient id="scanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <!-- Scanning Laser Gradient -->
+    <linearGradient id="scanBeamGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#38BDF8" stop-opacity="0" />
-      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.9" />
       <stop offset="100%" stop-color="#34D399" stop-opacity="0" />
     </linearGradient>
 
-    <!-- Subtle Dot Grid -->
-    <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1" fill="#334155" opacity="0.3" />
+    <!-- Bottom Line Gradient -->
+    <linearGradient id="brandGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284C7" />
+      <stop offset="50%" stop-color="#6366F1" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+
+    <!-- Dot Grid Pattern -->
+    <pattern id="dotPattern" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#334155" opacity="0.35" />
     </pattern>
+
+    <style>
+      @keyframes pulseRing {
+        0% { r: 3.5px; opacity: 1; }
+        50% { r: 8px; opacity: 0.15; }
+        100% { r: 3.5px; opacity: 1; }
+      }
+      @keyframes blinkCursor {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+      @keyframes laserScan {
+        0% { transform: translateY(38px); opacity: 0; }
+        15% { opacity: 0.9; }
+        85% { opacity: 0.9; }
+        100% { transform: translateY(142px); opacity: 0; }
+      }
+      @keyframes glowPulse {
+        0%, 100% { opacity: 0.8; }
+        50% { opacity: 1; }
+      }
+
+      .radar-core { fill: #10B981; }
+      .radar-ring { fill: #10B981; animation: pulseRing 2.4s ease-in-out infinite; }
+      .terminal-cursor { fill: #38BDF8; animation: blinkCursor 0.9s infinite; }
+      .laser-line { animation: laserScan 3.6s cubic-bezier(0.4, 0, 0.2, 1) infinite; }
+      .bottom-glow { animation: glowPulse 4s ease-in-out infinite; }
+
+      .mono-label { font-family: ui-monospace, 'SF Mono', Menlo, monospace; font-size: 10.5px; font-weight: 600; letter-spacing: 1.5px; fill: #94A3B8; text-transform: uppercase; }
+      .hero-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif; font-size: 34px; font-weight: 800; fill: #FFFFFF; letter-spacing: -0.6px; }
+      .headline-code { font-family: ui-monospace, 'SF Mono', 'Fira Code', Menlo, monospace; font-size: 13.5px; font-weight: 600; fill: #38BDF8; }
+      .meta-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif; font-size: 12.5px; font-weight: 400; fill: #64748B; }
+      .chip-label { font-family: ui-monospace, 'SF Mono', Menlo, monospace; font-size: 11px; font-weight: 600; fill: #CBD5E1; }
+      .card-tab { font-family: ui-monospace, 'SF Mono', Menlo, monospace; font-size: 10px; font-weight: 600; fill: #64748B; }
+      .node-text { font-family: ui-monospace, 'SF Mono', Menlo, monospace; font-size: 10px; font-weight: 600; }
+    </style>
   </defs>
 
-  <style>
-    @keyframes pulseRadar {
-      0% { r: 3.5px; opacity: 1; }
-      50% { r: 8px; opacity: 0.15; }
-      100% { r: 3.5px; opacity: 1; }
-    }
-    @keyframes cursorBlink {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0; }
-    }
-    @keyframes scanMotion {
-      0% { transform: translateY(36px); opacity: 0; }
-      20% { opacity: 0.9; }
-      80% { opacity: 0.9; }
-      100% { transform: translateY(142px); opacity: 0; }
-    }
-    @keyframes textFade {
-      0%, 45% { opacity: 1; }
-      50%, 95% { opacity: 0; }
-      100% { opacity: 1; }
-    }
-
-    .radar-core { fill: #10B981; }
-    .radar-ring { fill: #10B981; animation: pulseRadar 2.4s ease-in-out infinite; }
-    .status-text { font-family: ui-monospace, 'SF Mono', Menlo, monospace; font-size: 10.5px; font-weight: 600; letter-spacing: 1.5px; fill: #94A3B8; text-transform: uppercase; }
-    .author-name { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif; font-size: 34px; font-weight: 800; fill: #FFFFFF; letter-spacing: -0.6px; }
-    .headline-dynamic { font-family: ui-monospace, 'SF Mono', 'Fira Code', Menlo, monospace; font-size: 13.5px; font-weight: 600; fill: #38BDF8; }
-    .cursor-elem { animation: cursorBlink 0.9s infinite; }
-    .meta-desc { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif; font-size: 12.5px; font-weight: 400; fill: #64748B; }
-    .chip-text { font-family: ui-monospace, 'SF Mono', Menlo, monospace; font-size: 11px; font-weight: 600; fill: #CBD5E1; }
-    .file-tab { font-family: ui-monospace, 'SF Mono', Menlo, monospace; font-size: 10px; font-weight: 600; fill: #64748B; }
-    .layer-node { font-family: ui-monospace, 'SF Mono', Menlo, monospace; font-size: 10px; font-weight: 600; }
-    .scan-beam { animation: scanMotion 3.5s cubic-bezier(0.4, 0, 0.2, 1) infinite; }
-  </style>
-
-  <!-- Base Canvas -->
-  <rect x="1" y="1" width="918" height="238" rx="12" fill="url(#bg)" stroke="#1E293B" stroke-width="1.2" />
+  <!-- Container Surface -->
+  <rect x="1" y="1" width="918" height="238" rx="12" fill="url(#canvasBg)" stroke="#1E293B" stroke-width="1.2" />
 
   <!-- Background Grid -->
-  <rect x="1" y="1" width="918" height="238" rx="12" fill="url(#grid)" />
+  <rect x="1" y="1" width="918" height="238" rx="12" fill="url(#dotPattern)" />
 
-  <!-- Left Identity Column -->
+  <!-- Left Column -->
   <g transform="translate(38, 32)">
-    <!-- Top Status Indicator -->
+    <!-- Active Status Indicator -->
     <g transform="translate(0, 0)">
       <rect x="0" y="0" width="292" height="22" rx="11" fill="#0F172A" stroke="#1E293B" stroke-width="1" />
       <circle cx="11" cy="11" r="7" class="radar-ring" />
       <circle cx="11" cy="11" r="3.5" class="radar-core" />
-      <text x="24" y="15" class="status-text">FULL-STACK &bull; INFORMATICS @ UMRI</text>
+      <text x="24" y="15" class="mono-label">FULL-STACK &bull; INFORMATICS @ UMRI</text>
     </g>
 
-    <!-- Full Name -->
-    <text x="0" y="56" class="author-name">M. Ilmi Alfaridzi</text>
+    <!-- Name Heading -->
+    <text x="0" y="56" class="hero-title">M. Ilmi Alfaridzi</text>
 
-    <!-- Animated Typing Line -->
+    <!-- Dynamic Animated Typing Line -->
     <g transform="translate(0, 80)">
-      <text x="0" y="0" class="headline-dynamic">Building Full-Stack Systems &bull; Laravel 12 &bull; Next.js 16 &bull; WASM</text>
-      <rect x="522" y="-12" width="2.5" height="15" fill="#38BDF8" class="cursor-elem" />
+      <text x="0" y="0" class="headline-code">Building Resilient Full-Stack Systems &bull; Laravel 12 &bull; Next.js 16 &bull; WASM</text>
+      <rect x="565" y="-12" width="2.5" height="15" class="terminal-cursor" />
     </g>
 
-    <!-- Subtitle / Meta -->
-    <text x="0" y="104" class="meta-desc">Informatics Engineering Undergraduate &bull; Universitas Muhammadiyah Riau &bull; Pekanbaru, ID</text>
+    <!-- Subtitle Meta -->
+    <text x="0" y="104" class="meta-text">Informatics Engineering &bull; Universitas Muhammadiyah Riau &bull; Pekanbaru, ID</text>
 
-    <!-- Minimalist Stack Chips -->
+    <!-- Tech Stack Chips -->
     <g transform="translate(0, 126)">
-      <!-- Laravel -->
       <rect x="0" y="0" width="86" height="26" rx="5" fill="#0F172A" stroke="#1E293B" stroke-width="1" />
-      <text x="12" y="17" class="chip-text">Laravel 12</text>
+      <text x="12" y="17" class="chip-label">Laravel 12</text>
 
-      <!-- Next.js -->
       <rect x="94" y="0" width="86" height="26" rx="5" fill="#0F172A" stroke="#1E293B" stroke-width="1" />
-      <text x="106" y="17" class="chip-text">Next.js 16</text>
+      <text x="106" y="17" class="chip-label">Next.js 16</text>
 
-      <!-- React 19 -->
       <rect x="188" y="0" width="82" height="26" rx="5" fill="#0F172A" stroke="#1E293B" stroke-width="1" />
-      <text x="200" y="17" class="chip-text">React 19</text>
+      <text x="200" y="17" class="chip-label">React 19</text>
 
-      <!-- TypeScript -->
       <rect x="278" y="0" width="94" height="26" rx="5" fill="#0F172A" stroke="#1E293B" stroke-width="1" />
-      <text x="290" y="17" class="chip-text">TypeScript</text>
+      <text x="290" y="17" class="chip-label">TypeScript</text>
 
-      <!-- WebAssembly -->
       <rect x="380" y="0" width="102" height="26" rx="5" fill="#0F172A" stroke="#1E293B" stroke-width="1" />
-      <text x="392" y="17" class="chip-text">WebAssembly</text>
+      <text x="392" y="17" class="chip-label">WebAssembly</text>
 
-      <!-- TailwindCSS -->
       <rect x="490" y="0" width="98" height="26" rx="5" fill="#0F172A" stroke="#1E293B" stroke-width="1" />
-      <text x="502" y="17" class="chip-text">TailwindCSS</text>
+      <text x="502" y="17" class="chip-label">TailwindCSS</text>
     </g>
   </g>
 
   <!-- Right Architecture Blueprint Card -->
   <g transform="translate(636, 26)">
-    <!-- Container -->
     <rect x="0" y="0" width="248" height="184" rx="8" fill="#0B1120" stroke="#1E293B" stroke-width="1" />
 
-    <!-- Terminal Bar -->
+    <!-- Card Header -->
     <rect x="0" y="0" width="248" height="26" rx="8" fill="#080D18" />
     <line x1="0" y1="26" x2="248" y2="26" stroke="#1E293B" stroke-width="1" />
     <circle cx="12" cy="13" r="3" fill="#EF4444" opacity="0.8" />
     <circle cx="21" cy="13" r="3" fill="#F59E0B" opacity="0.8" />
     <circle cx="30" cy="13" r="3" fill="#10B981" opacity="0.8" />
-    <text x="44" y="17" class="file-tab">runtime-architecture.ts</text>
+    <text x="44" y="17" class="card-tab">runtime-architecture.ts</text>
 
-    <!-- Layers -->
+    <!-- System Layer Nodes -->
     <g transform="translate(12, 38)">
       <!-- UI Layer -->
       <rect x="0" y="0" width="224" height="26" rx="4" fill="#070B14" stroke="#1E293B" stroke-width="0.8" />
-      <text x="10" y="17" class="layer-node" fill="#38BDF8">Client :: Next.js 16 + React 19</text>
+      <text x="10" y="17" class="node-text" fill="#38BDF8">Client :: Next.js 16 + React 19</text>
 
       <!-- Connector -->
       <line x1="112" y1="26" x2="112" y2="34" stroke="#334155" stroke-width="1" stroke-dasharray="2,2" />
 
-      <!-- Core Layer -->
+      <!-- Backend Layer -->
       <rect x="0" y="34" width="224" height="26" rx="4" fill="#070B14" stroke="#1E293B" stroke-width="0.8" />
-      <text x="10" y="51" class="layer-node" fill="#F87171">Backend:: Laravel 12 + Spatie RBAC</text>
+      <text x="10" y="51" class="node-text" fill="#F87171">Backend:: Laravel 12 + Spatie RBAC</text>
 
       <!-- Connector -->
       <line x1="112" y1="60" x2="112" y2="68" stroke="#334155" stroke-width="1" stroke-dasharray="2,2" />
 
-      <!-- Engine Layer -->
+      <!-- Compute Layer -->
       <rect x="0" y="68" width="224" height="26" rx="4" fill="#070B14" stroke="#1E293B" stroke-width="0.8" />
-      <text x="10" y="85" class="layer-node" fill="#34D399">Compute:: WASM + MySQL / SQLite</text>
+      <text x="10" y="85" class="node-text" fill="#34D399">Compute:: WASM + MySQL / SQLite</text>
     </g>
 
     <!-- Animated Scanning Laser Line -->
-    <line x1="14" y1="0" x2="234" y2="0" stroke="url(#scanGrad)" stroke-width="2" class="scan-beam" />
+    <line x1="14" y1="0" x2="234" y2="0" stroke="url(#scanBeamGrad)" stroke-width="2" class="laser-line" />
 
-    <!-- Privacy Status Pill -->
+    <!-- Card Status Footer -->
     <g transform="translate(12, 154)">
       <circle cx="5" cy="5" r="3" fill="#34D399" />
       <text x="14" y="9" font-family="ui-monospace, monospace" font-size="9.5" fill="#94A3B8">Zero-Server Client Sandbox Active</text>
     </g>
   </g>
 
-  <!-- Flowing Bottom Gradient Accent -->
-  <line x1="38" y1="238" x2="882" y2="238" stroke="url(#borderGlow)" stroke-width="3" />
+  <!-- Glowing Bottom Accent Line -->
+  <line x1="38" y1="238" x2="882" y2="238" stroke="url(#brandGradient)" stroke-width="3" class="bottom-glow" />
 </svg>
