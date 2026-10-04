@@ -2,13 +2,17 @@
 
 # Hi, I'm M. Ilmi Alfaridzi 👋
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0284c7,35:2563eb,70:4f46e5,100:06b6d4&height=190&section=header&text=M.%20Ilmi%20Alfaridzi&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Full-Stack%20Web%20Artisan%20%7C%20Laravel%2012%20%2B%20Next.js%20%7C%20Informatics%20@%20UMRI&descAlignY=56&descSize=16" alt="Header Banner" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:172554,40:1e40af,80:0284c7,100:06b6d4&height=195&section=header&text=M.%20Ilmi%20Alfaridzi&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Full-Stack%20Web%20Artisan%20%7C%20Laravel%2012%20%2B%20Next.js%20%7C%20Informatics%20@%20UMRI&descAlignY=56&descSize=16" alt="Header Banner" width="100%" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=1200&color=2563EB&center=true&vCenter=true&width=800&lines=Full-Stack+Web+Developer+%26+Tech+Artisan;Laravel+12+%2B+Next.js+16+%2B+React+19;Local-First+%26+Client-Side+WASM+Engine;Informatics+Student+at+Universitas+Muhammadiyah+Riau;40%2B+Accolades+%7C+MC+Wisuda+ke-28+UMRI" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&pause=1000&color=2563EB&center=true&vCenter=true&width=800&lines=Full-Stack+Web+Developer+%26+Tech+Artisan;Laravel+12+%2B+Next.js+16+%2B+React+19;Local-First+%26+Client-Side+WASM+Engine;Informatics+Student+at+Universitas+Muhammadiyah+Riau;40%2B+Accolades+%7C+MC+Wisuda+ke-28+UMRI" alt="Typing SVG" />
 
 <p>
-  <a href="https://komarev.com/ghpvc/?username=Ilmialfa">
-    <img src="https://komarev.com/ghpvc/?username=Ilmialfa&label=Profile%20Views&color=2563eb&style=flat-square" alt="Profile Views" />
+  <a href="https://github.com/Ilmialfa?tab=followers">
+    <img src="https://img.shields.io/github/followers/Ilmialfa?label=Followers&style=flat-square&color=2563eb" alt="Followers" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/Ilmialfa?tab=repositories">
+    <img src="https://img.shields.io/github/stars/Ilmialfa?label=Stars&style=flat-square&color=ffd700" alt="Stars" />
   </a>
   &nbsp;
   <a href="https://www.linkedin.com/in/m-ilmi-alfaridzi-7a5a02293/" target="_blank">
@@ -182,5 +186,5 @@ const ilmi = {
 
   <br /><br />
 
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0284c7,50:2563eb,100:06b6d4&height=100&section=footer" width="100%" alt="Footer Wave" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:172554,40:1e40af,80:0284c7,100:06b6d4&height=100&section=footer" width="100%" alt="Footer Wave" />
 </div>
