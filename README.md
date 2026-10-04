@@ -1,56 +1,113 @@
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/Ilmialfa/Ilmialfa/main/assets/hero-animated.svg" alt="M. Ilmi Alfaridzi" width="100%" />
+# Hi, I'm M. Ilmi Alfaridzi 👋
 
-  <br /><br />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0284c7,35:2563eb,70:4f46e5,100:06b6d4&height=190&section=header&text=M.%20Ilmi%20Alfaridzi&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Full-Stack%20Web%20Artisan%20%7C%20Laravel%2012%20%2B%20Next.js%20%7C%20Informatics%20@%20UMRI&descAlignY=56&descSize=16" alt="Header Banner" width="100%" />
 
-  <p align="center">
-    <a href="https://www.linkedin.com/in/m-ilmi-alfaridzi-7a5a02293/" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" />
-    </a>
-    &nbsp;&bull;&nbsp;
-    <a href="mailto:alfaridziilmi@gmail.com">
-      <img src="https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white" alt="Email" />
-    </a>
-    &nbsp;&bull;&nbsp;
-    <a href="https://instagram.com/ilmialfaridzi" target="_blank">
-      <img src="https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white" alt="Instagram" />
-    </a>
-    &nbsp;&bull;&nbsp;
-    <a href="https://wa.me/6282248001571" target="_blank">
-      <img src="https://img.shields.io/badge/WhatsApp-25D366?style=flat&logo=whatsapp&logoColor=white" alt="WhatsApp" />
-    </a>
-    &nbsp;&bull;&nbsp;
-    <a href="https://omniconvert-mu.vercel.app" target="_blank">
-      <img src="https://img.shields.io/badge/Live_Portfolio-0284C7?style=flat&logo=vercel&logoColor=white" alt="Live Portfolio" />
-    </a>
-  </p>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=1200&color=2563EB&center=true&vCenter=true&width=800&lines=Full-Stack+Web+Developer+%26+Tech+Artisan;Laravel+12+%2B+Next.js+16+%2B+React+19;Local-First+%26+Client-Side+WASM+Engine;Informatics+Student+at+Universitas+Muhammadiyah+Riau;40%2B+Accolades+%7C+MC+Wisuda+ke-28+UMRI" alt="Typing SVG" />
+
+<p>
+  <a href="https://komarev.com/ghpvc/?username=Ilmialfa">
+    <img src="https://komarev.com/ghpvc/?username=Ilmialfa&label=Profile%20Views&color=2563eb&style=flat-square" alt="Profile Views" />
+  </a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/m-ilmi-alfaridzi-7a5a02293/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-M._Ilmi_Alfaridzi-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  &nbsp;
+  <a href="mailto:alfaridziilmi@gmail.com">
+    <img src="https://img.shields.io/badge/Email-alfaridziilmi%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  &nbsp;
+  <a href="https://wa.me/6282248001571" target="_blank">
+    <img src="https://img.shields.io/badge/WhatsApp-0822--4800--1571-25D366?style=flat-square&logo=whatsapp&logoColor=white" alt="WhatsApp" />
+  </a>
+  &nbsp;
+  <a href="https://instagram.com/ilmialfaridzi" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-@ilmialfaridzi-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" />
+  </a>
+</p>
 
 </div>
 
 ---
 
-### About Me
+## About Me
 
-Hi! I am **M. Ilmi Alfaridzi**, an Informatics Engineering student at **Universitas Muhammadiyah Riau (UMRI)** and a full-stack web developer based in Pekanbaru, Indonesia.
+I am an Informatics Engineering student at **Universitas Muhammadiyah Riau (UMRI)** and a full-stack web developer based in Pekanbaru, Indonesia.
 
-I engineer modern web applications with an emphasis on **local-first processing**, **client-side sandboxing**, and **resilient backend architectures**. My primary development stack centers on **Laravel 12**, **Next.js 16**, **React 19**, and **TypeScript**, with dedicated focus on running heavy workloads in-browser via WebAssembly (WASM) to ensure zero data egress and total user privacy.
+I specialize in building **high-performance web applications** with clean architectures, robust backend systems, and modern client-side ergonomics. My primary stack revolves around **Laravel 12**, **Next.js 16**, **React 19**, and **TypeScript**, with dedicated focus on **local-first processing** (running compute & transcoding in-browser via WebAssembly for complete data privacy).
+
+```ts
+const ilmi = {
+  name: "M. Ilmi Alfaridzi",
+  role: "Full-Stack Web Artisan & Tech Lead",
+  education: "Informatics Engineering Student at Universitas Muhammadiyah Riau (UMRI)",
+  location: "Pekanbaru, Riau, Indonesia",
+  specialties: ["Full-Stack Architecture", "Local-First WebApps", "Client-Side WASM"],
+  coreStack: {
+    frontend: ["Next.js 16", "React 19", "TypeScript", "Tailwind CSS"],
+    backend: ["Laravel 12", "Inertia.js React", "Filament PHP", "Spatie RBAC"],
+    compute: ["WebAssembly (WASM)", "Web Workers", "FFmpeg", "Tesseract OCR"]
+  },
+  leadership: [
+    "Official Master of Ceremony Wisuda ke-28 UMRI",
+    "Steering Committee Lead NIFC 4.0 National Event (2025)",
+    "Lead Coordinator UMRI Web Design & Development Study Club"
+  ],
+  achievements: "40+ Regional & National Awards across Tech, Debate & Public Speaking"
+};
+```
 
 ---
 
-### Highlights
+## Current Focus
 
-| Domain | Profile &amp; Focus |
+<div align="center">
+
+| Domain | What I'm Building &amp; Architecting |
 | :--- | :--- |
-| **Education** | Informatics Engineering &bull; **Universitas Muhammadiyah Riau (UMRI)** |
-| **Location** | Pekanbaru, Riau, Indonesia |
-| **Core Focus** | Full-Stack Architecture, Local-First Systems, WebAssembly Compute |
-| **Leadership** | Official Master of Ceremony Wisuda ke-28 UMRI &bull; Committee Lead NIFC 4.0 &bull; Study Club Lead |
-| **Honors &amp; Awards** | **40+ Regional &amp; National Accolades** across Competitive Programming, Public Speaking &amp; Scientific Paper Competitions |
+| **Full-Stack Systems** | Enterprise-grade platforms built with **Laravel 12**, **Inertia.js React**, and **Filament PHP** |
+| **Local-First &amp; WASM** | In-browser file conversion &amp; OCR sandboxes with **WebAssembly (FFmpeg / Tesseract)** |
+| **AI &amp; Predictive Tech** | Expense categorization &amp; cashflow forecasting using **OpenAI Structured Outputs** with **Next.js 16** |
+| **Leadership &amp; Community** | Mentoring campus web study clubs &amp; moderating university technology events |
+
+</div>
 
 ---
 
-### Featured Projects
+## Tech Stack
+
+<div align="center">
+
+### Frontend &amp; UI
+![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+### Backend &amp; Architecture
+![Laravel](https://img.shields.io/badge/Laravel_12-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP_8.3-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![Inertia.js](https://img.shields.io/badge/Inertia.js-9333EA?style=for-the-badge&logo=inertia&logoColor=white)
+![Filament](https://img.shields.io/badge/Filament_PHP-F59E0B?style=for-the-badge&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+
+### Compute, Tooling &amp; Workflow
+![WebAssembly](https://img.shields.io/badge/WebAssembly-654FF0?style=for-the-badge&logo=webassembly&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+
+</div>
+
+---
+
+## Featured Projects
 
 <table width="100%">
   <tr>
@@ -63,14 +120,8 @@ I engineer modern web applications with an emphasis on **local-first processing*
         <li>Offloaded to dedicated <strong>Web Workers</strong> with parallel batch queues and ZIP packing.</li>
       </ul>
       <p>
-        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-        <img src="https://img.shields.io/badge/WebAssembly-654FF0?style=flat-square&logo=webassembly&logoColor=white" alt="WASM" />
-        <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind" />
-      </p>
-      <p>
-        <a href="https://omniconvert-mu.vercel.app" target="_blank"><strong>Live Demo ↗</strong></a> &nbsp;&bull;&nbsp; 
-        <a href="https://github.com/Ilmialfa/OmniConvert"><strong>Source Code ↗</strong></a>
+        <a href="https://omniconvert-mu.vercel.app" target="_blank"><strong>🌐 Live Application ↗</strong></a> &nbsp;&bull;&nbsp; 
+        <a href="https://github.com/Ilmialfa/OmniConvert"><strong>📂 Source Code ↗</strong></a>
       </p>
     </td>
     <td width="50%" valign="top">
@@ -82,14 +133,8 @@ I engineer modern web applications with an emphasis on **local-first processing*
         <li>Engineered on <strong>Next.js 16 (Turbopack)</strong> and <strong>React 19</strong> with sub-second compilation.</li>
       </ul>
       <p>
-        <img src="https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js 16" />
-        <img src="https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React 19" />
-        <img src="https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI" />
-        <img src="https://img.shields.io/badge/Recharts-22C55E?style=flat-square&logo=chartdotjs&logoColor=white" alt="Recharts" />
-      </p>
-      <p>
-        <a href="https://finsight-ai-vert.vercel.app" target="_blank"><strong>Live Demo ↗</strong></a> &nbsp;&bull;&nbsp; 
-        <a href="https://github.com/Ilmialfa/finsight-ai"><strong>Source Code ↗</strong></a>
+        <a href="https://finsight-ai-vert.vercel.app" target="_blank"><strong>🌐 Live Application ↗</strong></a> &nbsp;&bull;&nbsp; 
+        <a href="https://github.com/Ilmialfa/finsight-ai"><strong>📂 Source Code ↗</strong></a>
       </p>
     </td>
   </tr>
@@ -103,13 +148,7 @@ I engineer modern web applications with an emphasis on **local-first processing*
         <li>Granular administrative catalog and sales inquiry backoffice powered by <strong>Filament PHP</strong>.</li>
       </ul>
       <p>
-        <img src="https://img.shields.io/badge/Laravel_12-FF2D20?style=flat-square&logo=laravel&logoColor=white" alt="Laravel 12" />
-        <img src="https://img.shields.io/badge/Inertia_React-9333EA?style=flat-square&logo=inertia&logoColor=white" alt="Inertia" />
-        <img src="https://img.shields.io/badge/Filament_PHP-F59E0B?style=flat-square&logo=php&logoColor=white" alt="Filament" />
-        <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
-      </p>
-      <p>
-        <a href="https://github.com/Ilmialfa/website-batik-kkn"><strong>Source Code ↗</strong></a>
+        <a href="https://github.com/Ilmialfa/website-batik-kkn"><strong>📂 Source Code ↗</strong></a>
       </p>
     </td>
     <td width="50%" valign="top">
@@ -121,13 +160,7 @@ I engineer modern web applications with an emphasis on **local-first processing*
         <li>Automated database backup routines, stock anomaly threshold warnings, and receipt formatting.</li>
       </ul>
       <p>
-        <img src="https://img.shields.io/badge/Laravel_12-FF2D20?style=flat-square&logo=laravel&logoColor=white" alt="Laravel 12" />
-        <img src="https://img.shields.io/badge/Inertia_React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="Inertia" />
-        <img src="https://img.shields.io/badge/Spatie_RBAC-4F46E5?style=flat-square&logo=shield&logoColor=white" alt="Spatie" />
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-      </p>
-      <p>
-        <a href="https://github.com/Ilmialfa/toko-putera-kembar"><strong>Source Code ↗</strong></a>
+        <a href="https://github.com/Ilmialfa/toko-putera-kembar"><strong>📂 Source Code ↗</strong></a>
       </p>
     </td>
   </tr>
@@ -135,19 +168,7 @@ I engineer modern web applications with an emphasis on **local-first processing*
 
 ---
 
-### Technical Stack
-
-| Layer | Technologies &amp; Tooling |
-| :--- | :--- |
-| **Frontend &amp; UI** | `Next.js 16 (App Router)` &bull; `React 19` &bull; `TypeScript` &bull; `JavaScript (ESNext)` &bull; `Tailwind CSS` &bull; `Framer Motion` &bull; `Recharts` |
-| **Backend &amp; Services** | `Laravel 12` &bull; `PHP 8.3+` &bull; `Inertia.js` &bull; `Filament PHP` &bull; `Spatie Permissions` &bull; `RESTful APIs` |
-| **Compute &amp; Runtimes** | `WebAssembly (WASM)` &bull; `FFmpeg.wasm` &bull; `Tesseract OCR` &bull; `Web Workers` &bull; `Service Workers (PWA)` |
-| **Databases &amp; Storage** | `MySQL` &bull; `PostgreSQL` &bull; `SQLite` &bull; `IndexedDB` &bull; `Client Storage` |
-| **Tooling &amp; Workflow** | `Git` &bull; `GitHub Actions` &bull; `Vite` &bull; `Vitest` &bull; `Postman` &bull; `Composer` &bull; `pnpm / npm` &bull; `Vercel` |
-
----
-
-### Contribution Activity
+## Contribution Activity
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Ilmialfa/Ilmialfa/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" width="100%" />
@@ -156,7 +177,10 @@ I engineer modern web applications with an emphasis on **local-first processing*
 ---
 
 <div align="center">
-  <p>
-    <sub>M. Ilmi Alfaridzi &bull; Universitas Muhammadiyah Riau &bull; Pekanbaru, Indonesia</sub>
-  </p>
+  <b>Thanks for visiting my profile.</b><br />
+  Always learning, building resilient software, and open to impactful collaborations.
+
+  <br /><br />
+
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0284c7,50:2563eb,100:06b6d4&height=100&section=footer" width="100%" alt="Footer Wave" />
 </div>
