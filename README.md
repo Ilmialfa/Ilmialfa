@@ -2,12 +2,12 @@
 
 # Hi, I'm M. Ilmi Alfaridzi 👋
 
-<img src="https://capsule-render.vercel.app/api?type=wave&color=0:1e3a8a,50:2563eb,100:06b6d4&height=190&section=header&text=M.%20Ilmi%20Alfaridzi&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20Web%20Artisan%20%7C%20Informatics%20@%20UMRI&descAlignY=58&descSize=16" alt="Header Banner" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:00c2ff&height=180&section=header&text=M.%20Ilmi%20Alfaridzi&fontSize=42&fontColor=ffffff&fontAlignY=35&desc=Full-Stack%20Web%20Artisan%20%7C%20Laravel%20%7C%20Next.js%20%7C%20UMRI&descAlignY=55&descSize=16" alt="Header Banner" width="100%" />
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2563EB&center=true&vCenter=true&width=800&lines=Full-Stack+Web+Artisan+%7C+Tech+Lead;Laravel+12+%7C+Next.js+16+%7C+React+19;Informatics+Student+at+Universitas+Muhammadiyah+Riau;Client-Side+WASM+%7C+Local-First+Architecture;MC+Wisuda+ke-28+UMRI+%7C+40%2B+Accolades" alt="Typing SVG" />
 
 <p>
-  <img src="https://komarev.com/ghpvc/?username=Ilmialfa&label=Profile%20Views&color=0284c7&style=for-the-badge" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=Ilmialfa&label=Profile%20Views&color=00c2ff&style=for-the-badge" alt="Profile views" />
   <img src="https://img.shields.io/github/followers/Ilmialfa?label=Followers&style=for-the-badge&color=2563eb" alt="Followers" />
   <img src="https://img.shields.io/github/stars/Ilmialfa?label=Stars&style=for-the-badge&color=f59e0b" alt="Stars" />
 </p>
