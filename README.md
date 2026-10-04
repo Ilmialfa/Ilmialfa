@@ -2,7 +2,7 @@
 
 # Hi, I'm M. Ilmi Alfaridzi ðŸ‘‹
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:172554,40:1e40af,80:0284c7,100:06b6d4&height=195&section=header&text=M.%20Ilmi%20Alfaridzi&fontSize=42&fontColor=ffffff&fontAlignY=36&desc=Full-Stack%20Web%20Artisan%20%7C%20Laravel%2012%20%2B%20Next.js%20%7C%20Informatics%20@%20UMRI&descAlignY=56&descSize=16" alt="Header Banner" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:00c2ff&height=195&section=header&text=M.%20Ilmi%20Alfaridzi&fontSize=42&fontColor=ffffff&fontAlignY=36&desc=Full-Stack%20Web%20Artisan%20%7C%20Laravel%2012%20%2B%20Next.js%20%7C%20Informatics%20@%20UMRI&descAlignY=56&descSize=16" alt="Header Banner" width="100%" />
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&pause=1000&color=2563EB&center=true&vCenter=true&width=800&lines=Full-Stack+Web+Developer+%26+Tech+Artisan;Laravel+12+%2B+Next.js+16+%2B+React+19;Local-First+%26+Client-Side+WASM+Engine;Informatics+Student+at+Universitas+Muhammadiyah+Riau;40%2B+Accolades+%7C+MC+Wisuda+ke-28+UMRI" alt="Typing SVG" />
 
@@ -186,6 +186,7 @@ const ilmi = {
 
   <br /><br />
 
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:172554,40:1e40af,80:0284c7,100:06b6d4&height=100&section=footer" width="100%" alt="Footer Wave" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:00c2ff&height=100&section=footer" width="100%" alt="Footer Wave" />
 </div>
+
 
